@@ -33,7 +33,7 @@ public abstract class Polygon extends Shape
 	public double getPerimeter()
     {
     	double perim = 0;
-    	for (int index = 0; index < sideLengths.size() +1; ++index) {
+    	for (int index = 0; index < sideLengths.size(); ++index) {
     		perim += sideLengths.get(index);
     	}
     	return perim;

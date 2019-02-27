@@ -5,6 +5,11 @@ public class Square extends Polygon{
  public Square (String id, double size) {
 	 super(id);
 	 this.side = size;
+	 
+	 sideLengths.add(size);
+	 sideLengths.add(size);
+	 sideLengths.add(size);
+	 sideLengths.add(size);
  }
 
 @Override
